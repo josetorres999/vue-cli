@@ -1,15 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <h1>JOSE</h1>
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <MiComponente titulo="Star Wars"/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import MiComponente from './components/micomponente.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    MiComponente
   }
 }
 </script>
@@ -20,7 +23,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #f80101;
   margin-top: 60px;
 }
 </style>
